@@ -1,10 +1,10 @@
 #How To Use
 
-Fill the dfines in bottom of Pakat.php with your app information
+Fill the defines in bottom of Pakat.php with your app information
 
 First: `include "Pakat.php";`
 
-Next: `$Pakat = new Pakat("{PRIVATE_KEY}", "{PUBLIC_KEY}", "{CALLBACK_URL}", "{DEVELOPER_KEY}");`
+Next: `$Pakat = new Pakat("{CALLBACK_URL}");`
 
 Point: Please login to pakat website and register your application and get private key and public key and developer key
 
