@@ -16,7 +16,7 @@ This Method make login link on the response back to you a url `$link->url` you s
 Point: Set callback url carefully
 
 #checkRequest($LoginToken, $DeveloperHash); and getUserData($LoginToken);
-    $LoginToken = $_GET['login_token'];
+    `$LoginToken = $_GET['login_token'];
     $DeveloperHash = $_GET['developer_hash'];
     $check = $Pakat->checkRequest($LoginToken, $DeveloperHash);
     if($check) {
@@ -24,5 +24,5 @@ Point: Set callback url carefully
         $userData = getUserData($LoginToken);
     } else {
         die("Sorry, login token not valid");
-    }
+    }`
    
